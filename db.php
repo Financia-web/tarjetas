@@ -32,8 +32,8 @@ $conf_horario_atencion = '';
      $bd_pass = "heCL16-}.,$)";
      
      
-     $conn = new mysqli($server,$bd_usuario,$bd_pass,$bd);
-     $conn->set_charset('utf8');
+     $conexion = new mysqli($server,$bd_usuario,$bd_pass,$bd);
+     $conexion->set_charset('utf8');
 
     
 date_default_timezone_set('America/Argentina/Buenos_Aires');
