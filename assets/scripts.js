@@ -134,7 +134,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const interesTotal = monto * (interes / 100);
                 const total = monto + interesTotal;
+                console.log(total);
+                console.log(cantidad);
                 const valorCuota = total / cantidad;
+                
 
                 valorCuotaInput.value = valorCuota.toFixed(2);
                 totalInput.value = total.toFixed(2);

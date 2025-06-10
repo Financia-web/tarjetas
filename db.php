@@ -1,8 +1,8 @@
 <?php
-/*$host = "localhost";   
+$host = "localhost";   
 $usuario = "root"; 
 $clave = "";     
-$base = "tarjetas";
+$base = "simulador";
 
 $conexion = new mysqli($host, $usuario, $clave, $base);
 
@@ -10,10 +10,10 @@ $conexion = new mysqli($host, $usuario, $clave, $base);
 
 if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
-}*/
+}
 
 
-$titulo_site = "Simulador";
+/*$titulo_site = "Simulador";
 $conf_destino_userfiles = "sitio";
 $conf_direccion = "Urquiza 827 - Concordia";
 $conf_telefono = "+ 54 0345 423 0003";
@@ -43,6 +43,6 @@ $horaactual = date ("H:i:s");
 $mesactual = date ("m");
 $anioactual = date ("Y");
 $diaactual = date("j");
-
+*/
 ?>
 
